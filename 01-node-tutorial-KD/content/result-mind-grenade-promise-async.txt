@@ -1,0 +1,3 @@
+the content inside both file is 
+----------first file content------------- 
+###########second file content##########
