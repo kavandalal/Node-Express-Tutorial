@@ -49,6 +49,7 @@
       const fetchPeople = async () => {
         try {
           const { data } = await axios.get('/api/people')
+          //see 11-methods.js file for the backend that axios is asking for 
 
           const people = data.data.map((person) => {
             return `<h5>${person.name}</h5>`

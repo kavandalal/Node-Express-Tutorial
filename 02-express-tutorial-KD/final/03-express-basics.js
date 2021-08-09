@@ -24,5 +24,5 @@ app.listen(5000, () => {
 // app.put (update data in server)
 // app.delete (delete data in server)
 // app.all (to access all the name that are not defined in .get)
-// app.use ()
+// app.use (to use middleware, it expects middleware)
 // app.listen (port number that we have to listen at)

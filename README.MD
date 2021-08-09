@@ -8,7 +8,8 @@
 
 #### Course Exclusive
 
-[Node Tutorial and Projects Course](https://www.udemy.com/course/nodejs-tutorial-and-projects-course/?referralCode=E94792BEAE9ADD204BC7)
+[Node Tutorial and Projects Course](https://www.youtube.com/watch?v=Oe421EPjeBE&t=22267s)
+By John Smilga
 
 4. Store API
 5. JWT Basics

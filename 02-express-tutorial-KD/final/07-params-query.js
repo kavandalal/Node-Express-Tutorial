@@ -28,7 +28,7 @@ app.get('/api/products/1',(req,res)=>{
 })
 
 app.get('/api/products/:productID', (req, res) => {
-  //only product with id === 1 
+  //only product with id === productID
   // DYNAMIC METHOD 
 
   // console.log(req)
@@ -58,16 +58,12 @@ app.get('/api/v1/query', (req, res) => {
   const { search, limit } = req.query
   console.log(req.query)
   let sortedProducts = [...products]
-  
-  console.log(1)
+
   if (search) {
-    console.log(2)
     sortedProducts = sortedProducts.filter((product) => {
       return product.name.startsWith(search)
     })
-    console.log(3)
   }
-  console.log(4)
   if (limit) {
     sortedProducts = sortedProducts.slice(0, Number(limit))
   }
